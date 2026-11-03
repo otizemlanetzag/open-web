@@ -26,8 +26,9 @@
 <div class="form-container">
     <h2>OpenWeb Joining Form</h2>
     
-    <!-- IMPORTANT: Replace [openweb@zohomail.com] with your actual email address -->
-    <form action="https://formsubmit.co[email protected]" method="POST">
+    <!-- FormSubmit requires the recipient email after a slash in the endpoint URL. -->
+    <form action="https://formsubmit.co/openweb@zohomail.com" method="POST" accept-charset="UTF-8">
+        <input type="hidden" name="_subject" value="New OpenWeb joining form submission">
         
         <!-- Name Field -->
         <div class="form-group">
